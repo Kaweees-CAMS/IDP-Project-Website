@@ -969,16 +969,17 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 20px;
+  font-size: 17px;
   color: #fff;
   font-weight: 600;
+  padding: 0 20px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
   color: #ffffff;
-  font-size: 14px;
-  text-transform: uppercase;
-  padding: 0;
+  font-size: 13px;
+  text-transform: none;
+  padding: 0 20px !important;
   margin: 0;
 }
 
