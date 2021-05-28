@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\css"
+    "\\assets\\css",
+    "\\assets\\img",
+    "\\assets\\img\\portfolio"
   ],
-  "SelectedNode": "\\assets\\css\\main.css",
+  "SelectedNode": "\\assets\\css\\particle.css",
   "PreviewInSolutionExplorer": false
 }
