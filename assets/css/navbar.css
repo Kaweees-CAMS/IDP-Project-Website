@@ -90,6 +90,10 @@
   transition: 0.3s;
 }
 
+.navbar .nav-link.dropdown {
+  padding: 0 !important;
+}
+
 .navbar a i {
   font-size: 12px;
   line-height: 0;
