@@ -418,13 +418,13 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 3px;
   margin: 10px;
   color: #fff;
-  background: #A0D2DB;
+  background: #0052ff;
 }
 
 #hero .btn-get-started:hover {
   transition: 0.5s;
   background: #fff;
-  color: #A0D2DB;
+  color: #0052ff;
 }
 
 @media (min-width: 1024px) {
