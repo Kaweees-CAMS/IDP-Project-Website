@@ -4,8 +4,11 @@
     "\\assets",
     "\\assets\\css",
     "\\assets\\img",
-    "\\assets\\img\\Logo"
+    "\\assets\\img\\aerospaceTimeline",
+    "\\assets\\img\\manufacturingTimeline",
+    "\\assets\\vendor\\bootstrap",
+    "\\assets\\vendor\\bootstrap\\css"
   ],
-  "SelectedNode": "\\history-article.html",
+  "SelectedNode": "\\article-10.html",
   "PreviewInSolutionExplorer": false
 }
