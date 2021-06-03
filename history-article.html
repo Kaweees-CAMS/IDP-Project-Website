@@ -151,8 +151,7 @@
 
 
 
-                  <object type="text/html" class="center" data="timeline.html" width="1200px" height="4550px" style="overflow: auto;display: block;margin-left: auto;margin-right: auto;" data-aos="fade-up">
-                  </object>
+                  <iframe id="i" src="timeline.html" style="width:100%;border:none;"></iframe>
 
                   <div class="row" style="padding-bottom: 40px;">
                       <div class="col-lg-8 order-md-2 aos-init aos-animate" data-aos="fade-left">
@@ -179,11 +178,23 @@
 
 
 
-                  <object type="text/html" class="center" data="timeline2.html" width="1200px" height="3550px" style="overflow: auto;display: block;margin-left: auto;margin-right: auto;" data-aos="fade-up">
-                  </object>
+                  <iframe id="ii" src="timeline2.html" style="width:100%;border:none;"></iframe>
+                  <script> 
+                      window.onmessage = ee => {
+                          if (ee.data.hasOwnProperty("frameHeight")) {
+                              console.log("hh " + ee.data.frameHeight._h);
+                              if (ee.data.frameHeight._h == 0) {
+                                  document.getElementById("ii").style.height = `${ee.data.frameHeight.h + 130}px`;
+                              }
+                              else if (ee.data.frameHeight._h == 1) {
+                                  document.getElementById("i").style.height = `${ee.data.frameHeight.h + 130}px`;
+                              }
+                          }
+                      }
+                  </script>
 
-                  
-          </section>
+
+</section>
           <div class="p-0 m-0 w-100 h-100" style="background-color: #001D3A;">
               <div class="mk-shape-divider mk-shape-divider--stick diagonal-bottom-style big-size mk-shape-divider--stick-bottom" id="mk-shape-divider-48">
                   <div class="shape__container">
