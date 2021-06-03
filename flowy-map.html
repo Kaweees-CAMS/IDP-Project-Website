@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Timeline</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/flowmanp.css" rel="stylesheet">
+
+    <!-- Particle.css - Animate on scroll library -->
+    <link href="assets/css/particle.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- partial:index.partial.html -->
+    <!-- ELEMENT MIXIN TEMPLATE safdasfad-->
+    <!-- PLACEHOLDER MIXIN TEMPLATE-->
+    <!-- PELEMENT MIXIN TEMPLATE safdasfad-->
+    <div id="container">
+        <table class="container">
+            <thead>
+                <tr>
+                    <th><h1>Jobs</h1></th>
+                    <th><h1>Wages</h1></th>
+                    <th><h1>Degrees</h1></th>
+                    <th><h1>Fields of Study</h1></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Industrial Engineer</td>
+                    <td>
+                        US:<br>
+                        $88,950 per year<br>
+                        $42.76 per hour<br>
+                        <br>
+                        LA County:<br>
+                        $102,040 per year<br>
+                        $49.06 per hour
+                    </td>
+                    <td>
+                        Bachelors in Industrial Engineering →
+                        Masters in Industrial Engineering
+                    </td>
+                    <td>
+                        - Industrial Engineering<br>
+                        - Engineering in Manufacturing
+                    </td>
+                </tr>
+                <tr>
+                    <td>Operations<br>Research Analyst</td>
+                    <td>
+                        US:<br>
+                        $86,200 per year<br>
+                        $41.44 per hour<br>
+                        <br>
+                        LA County:<br>
+                        $98,420 per year<br>
+                        $47.32 per hour
+                    </td>
+                    <td>
+                        Bachelors in Engineering →
+                        Masters of<br>Engineering in Manufacturing
+                        (masters degree preferred for many entry positions)
+                    </td>
+                    <td>
+                        - Engineering<br>
+                        - Computer Science<br>
+                        - Analytics<br>
+                        - Mathematics
+                    </td>
+                </tr>
+                <tr>
+                    <td>Engineering Technicion</td>
+                    <td>
+                        US:<br>
+                        $57,320 per year<br>
+                        $27.56 per hour<br>
+                        <br>
+                        LA County:<br>
+                        $66,050 per year<br>
+                        $31.76 per hour
+                    </td>
+                    <td>
+                        Associates or Certification in Engineering Technology
+                        Bachelors in Engineering Technology
+                    </td>
+                    <td>
+                        - Engineering Technology<br>
+                        - Drafting and Design Technology
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <!-- partial -->
+    <script>
+
+        let height;
+
+        let posted = false;
+
+        const sendPostMessage = () => {
+            if (height !== document.getElementById('container').offsetHeight && posted == false) {
+                height = document.getElementById('container').offsetHeight;
+                window.parent.postMessage({
+                    frameHeight: height
+                }, '*');
+                console.log(height);
+                posted = true;
+            }
+        }
+
+        window.onload = () => sendPostMessage();
+
+        window.onresize = () => sendPostMessage();
+
+    </script>
+
+</body>
+</html>
