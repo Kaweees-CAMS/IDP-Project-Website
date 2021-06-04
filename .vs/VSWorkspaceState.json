@@ -1,14 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets",
-    "\\assets\\css",
     "\\assets\\img",
-    "\\assets\\img\\aerospaceTimeline",
-    "\\assets\\img\\manufacturingTimeline",
-    "\\assets\\vendor\\bootstrap",
-    "\\assets\\vendor\\bootstrap\\css"
+    "\\assets\\img\\lit-music"
   ],
-  "SelectedNode": "\\article-10.html",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
