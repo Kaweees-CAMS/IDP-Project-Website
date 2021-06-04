@@ -121,8 +121,9 @@
       </header>
     <section class="article-title" id="hero">
       <div class="article-title-container container">
-        <h1 data-aos="zoom-in">Flow Map</h1>
-        <h2 data-aos="fade-up">"Flow Map"</h2>
+        <h1 data-aos="zoom-in">Engineering Flow Map</h1>
+        <h2 data-aos="fade-up">What's the Career of an Engineer Like? This "Flow Map" can help <i>you</i> figure out what different types of engineers along a career progression do.</h2>
+        <a data-aos="fade-up" href="assets/videos/Career Pathway Hospitality.MOV" class="glightbox play-btn mb-4"></a>
       </div>
     </section>
     <div class="p-0 m-0 w-100 h-100" style="background-color: #101318;">
@@ -137,26 +138,22 @@
     <main id="main">
       <section id="article" class="about" style="background-color: #001D3A;">
         <div class="container">
-            <div class="container">
-                <div class="section-title" data-aos="fade-up">
-                    <h2 style="color: white;">"Flow Map"</h2>
-                    <p>What's the Career of an Engineer Like? This "Flow Map" can help <i>you</i> figure out what different types of engineers along a career progression do.</p>
-                    <br>
-                    <div>
-                        <div>
-                            <iframe id="ii" src="flowy-map.html" class="center" style="width:100%;border:none;" width="1200px" height="750px" style="overflow: auto;display: block;margin-left: auto;margin-right: auto;"></iframe>
-                            <script>
-                                window.onmessage = ee => {
-                                    if (ee.data.hasOwnProperty("frameHeight")) {
-                                        console.log("hh " + ee.data.frameHeight);
-                                        document.getElementById("ii").style.height = `${ee.data.frameHeight + 50}px`;
-                                    }
-                                }
-                            </script>
-                        </div>
-                    </div>
-                </div>
+          <div class="section-title" data-aos="fade-up">
+            <h2 class="text-center" style="color: #A0D2DB !important;">Flow Map</h2>
+          </div>
+          <div>
+            <div>
+              <iframe id="ii" src="flowy-map.html" class="center" style="width:100%;border:none;" width="1200px" height="750px" style="overflow: auto;display: block;margin-left: auto;margin-right: auto;"></iframe>
+              <script>
+                  window.onmessage = ee => {
+                      if (ee.data.hasOwnProperty("frameHeight")) {
+                          console.log("hh " + ee.data.frameHeight);
+                          document.getElementById("ii").style.height = `${ee.data.frameHeight + 50}px`;
+                      }
+                  }
+              </script>
             </div>
+          </div>
         </div>
       </section>
     </main><!-- End #main -->
