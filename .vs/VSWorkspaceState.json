@@ -4,11 +4,9 @@
     "\\assets",
     "\\assets\\css",
     "\\assets\\img",
-    "\\assets\\img\\aerospaceTimeline",
-    "\\assets\\img\\manufacturingTimeline",
-    "\\assets\\vendor\\bootstrap",
-    "\\assets\\vendor\\bootstrap\\css"
+    "\\assets\\img\\lit-music",
+    "\\assets\\videos"
   ],
-  "SelectedNode": "\\article-10.html",
+  "SelectedNode": "\\assets\\videos",
   "PreviewInSolutionExplorer": false
 }
