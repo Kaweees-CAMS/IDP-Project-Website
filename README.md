@@ -1,8 +1,6 @@
 # IDP Project Website
  Website for the 2020-2021 Manufacturing IDP project.
-<div align="left">
-  ![IDP Project Website Logo](/assets/img/android-chrome-192x192.png)
-</div>
+![IDP Project Website Logo](/assets/img/android-chrome-192x192.png)
 <div align="left">
   <a href="https://github.com/Kaweees/IDP-Project-Website/stargazers"><img src="https://img.shields.io/github/stars/687vex/VEX-687-Website"  alt="Stars Badge"/></a>
   <a href="https://github.com/Kaweees/IDP-Project-Website/members"><img src="https://img.shields.io/github/forks/687vex/VEX-687-Website"   alt="Forks Badge"/></a>
