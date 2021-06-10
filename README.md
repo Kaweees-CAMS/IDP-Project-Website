@@ -1,6 +1,6 @@
 # IDP Project Website
  Website for the 2020-2021 Manufacturing IDP project.
-<div align="left">
+<div style="width:100%;">
   <img align="left" width="150" height="150" src="/assets/img/android-chrome-192x192.png" alt="IDP Project Website Logo">
 </div>
 <div align="left">
